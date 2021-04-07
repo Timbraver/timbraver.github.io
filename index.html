@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Tim's Portfolio</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+
+      body {
+        background-image: url('https://cdn.pixabay.com/photo/2016/03/27/22/06/sea-1284467_960_720.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+		background-size: 100% 100%;
+      }
+</style>
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="w3-padding-64 w3-center"><b>Tim's<br>Portfolio</b></h3>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Tim's Portfolio</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Photo grid -->
+  <div class="w3-row">
+    <div class="w3-third">
+      <img src="nederland.png" style="width:100%" onclick="onClick(this)" alt="Ik ben geboren in Nederland (Amsterdam), mijn moeder komt uit amsterdam en mijn vader uit het dorpje Mijdrecht. 
+	    Eigenlijk is Nederland een heel uniek land, zo hebben we geen bergen en heeft heel Nederland een plat landschap. Nederland bestaat uit grote steden, kleine dorpjes, stranden en platte land (de polders).
+		Ik woon in Amsterdam-west en dat vind ik fijn omdat alles snel te bereiken is. Zo kan ik snel naar de stad om nieuwe kleren te kopen of ik kan snel naar schiphol om op vakantie te gaan. ">
+      <img src="lambo.jpg" style="width:100%" onclick="onClick(this)" alt="Ik vind auto's erg interessant. Als je aan mij vraagt: Wat is jou lievelingsauto?, dan is mijn antwoord de Lamborghini Hurucan Performante (te zien op de foto). 
+        Uiteraard is dit niet de enige auto die ik erg mooi vind. Zo vind ik de Audi RS5 of de Audi RSQ8 ook heel mooi. Maar de auto die daar toch echt boven uirspringt blijft dus de Lamborghini Hurucan Performante.	  ">
+      <img src="vakantie.jpg" style="width:100%" onclick="onClick(this)" alt="Vakantie... is één van de leukste dingen waar ik elk jaar weer naar uitkijk, daarmee bedoel ik vooral de zomervakantie. In de zomervakantie ga ik altijd zwemmen met vrienden en ga ik vaak op vakantie naar 
+	    mijn favoriete vakantieland: Spanje. Helaas wordt dit van mij weggenomen door corona waar we nu met z'n alle in zitten. Hierdoor ben ik vorig jaar niet op vakantie geweest naar Spanje, maar hebben we er toch een leuke zomer van gemaakt door 2 keer op vakantie te gaan in Nederland. 
+		En we hebben precies geluk gehad met de week waarin we op vakantie gingen, want precies in die week was er een hittegolf. Dat was top. Ik hoop dit jaar of volgend jaar weer op vakantie naar Spanje te kunnen.">
+    </div>
+
+    <div class="w3-third">
+    <b> Welkom op mijn portfolio, hier kom je alles over mij te weten. Op deze portfolio website kun je
+        elk plaatje aanklikken. Zodra je op een plaatje hebt geklikt, wordt het plaatje vergroot en vind je aan de onderkant de bijbehorende beschrijving. Dit zorgt ervoor dat je alles over mij te weten komt. Enjoy ;)	</b>
+    <img src="arrowleft.gif" style="width:100%">
+	<img src="arrowright.gif" style="width:100%">
+	</div>
+    
+    <div class="w3-third">
+     <img src="coronaa.jpg" style="width:100%" onclick="onClick(this)" alt="Corona... wat moet ik daar nou van vinden. Niemand had het aan zien komen dat er een virus in de wereld zou ontstaan die letterlijk de hele wereld overneemt. Het coronavirus heeft veel verpest voor de mensen en dus ook voor mij.
+	    Zo heb ik het afgelopen anderhalf jaar geen goed fysiek onderwijs kunnen krijgen, dat is erg vervelend omdat ik ook in mijn examenjaar zit. Het coronavirus heeft ook veel andere dingen verpest zoals het vieren van feestjes en natuurlijk op vakantie gaan. Door de maatregelen zoals de anderhalve meter en de mondkapjesplicht wordt het er allemaal 
+		ook niet leuker op. Ik hoop dat het vaccineren in Nederland wat sneller gaat zodat ik maar ook jullie ons normale leven weer terugkrijgen.">
+      <img src="vrienden.jfif" style="width:100%" onclick="onClick(this)" alt="Ik spreek vaak af met mijn vrienden, dan gaan we vaak chillen of even een balletje trappen. Soms weten we niet wat we moeten doen door de coronaregels, dan gaan we soms gewoon een stuk fietsen of gaan we langs de McDonald's.">
+      <img src="playstation.jpg" style="width:100%" onclick="onClick(this)" alt="Als het bijvoorbeeld niet zo lekker weer buiten is maar ik en m'n vrienden toch iets willen doen gamen we altijd op de PlayStation. Dan spelen we altijd Fifa 21, GTA 5 of Call of Duty Black Opps 4.">
+    </div>
+  </div>
+  
+
+  
+<!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-content" style="max-width:600px">
+      <h4 class="w3-center"><b>Stuur mij een bericht!</b></h4>
+      <p>Wil jij graag meer over mij te weten komen? Vul dan het onderstaande formulier in.</p>
+      <form action="verstuur.html" target="_blank">
+        <div class="w3-section">
+          <label>Naam & Achternaam</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>E-mail</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Vraag</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Verstuur vraag</button>
+      </form>
+    </div>
+  </div>
+
+
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
